@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  helloworld:
+    image: 192.168.99.100/bcarpio/hello_world
+    ports:
+      - "80"
